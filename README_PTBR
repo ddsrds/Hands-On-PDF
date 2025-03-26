@@ -1,0 +1,70 @@
+====================================================================== 
+
+||---->>		Intruções Para Hands On - PDF		<<----||
+
+======================================================================
+
+
+O "Hands On" é um script em Python, desenvolvido no ambiente Google Colab, que implementa funções para leitura e análise de dados em arquivos de formato PDF, como arquivos ".CSV". O script processa os dados extraídos desses arquivos para gerar gráficos estatísticos baseados nas tabelas. Antes de executá-lo, é necessário realizar algumas verificações preliminares. Portanto, siga o procedimento descrito abaixo.
+
+
+[ 1 ] - Verifique se a tabela foi criada corretamente.
+
+	[1.1] - Verifique se a tabela foi salva no formato tabelado (.csv).
+
+	[1.2] - Verifique se foi criada dua tabela, sendo para o conteúdo (table_path.csv)
+
+	[1.3] - Verifique se as tabelas foram montadas corretamente com base no exemplo abaixo:
+
+		"|	tags									|"
+
+		 |	information you want to search for (words, phrases or symbols)	|
+		 
+
+[ 2 ] - Após baixar o arquivo "Hands On - PDF" do GitHub, faça:
+
+	[2.1] - Localize o arquivo em seu computador, geralmente na pasta "Downloads".
+
+	[2.2] - Clique com o botão direito sobre o arquivo "Hands On - PDF.zip" e clique em "Extrair aqui".
+
+	[2.3] - Localize a tabela criada para usar no script e o arquivo ".pdf" que deseja minerar.
+
+	[2.4] - Segurando a tecla "CTRL", selecione a tabela e o arquivo ".pdf".
+
+	[2.5] - Com ambos os arquivos selecionados, use o comando "CTRL + X" para mover ambos de uma única vez.
+
+	[2.6] - Após usar o comando para mover os arquivos, abra a pasta que foi extraída anteriormente, a pasta "Hands On - PDF".
+
+	[2.7] - Com a pasta aberta, cole ambos os arquivos dentro da pasta usando o comando "CTRL + V".
+	
+
+[ 3 ] - Com todos os arquivos necessários prontos para o upload para o Google Drive, faça:
+
+	[3.1] - Abra o navegador e faça o login do e-mail desejado.
+
+	[3.2] - Com o e-mail logado, abra o Google Drive.
+
+	[3.3] - Com a página do Google Drive aberta, clique em "+ NOVO".
+
+	[3.4] - Após abrir uma pequena janela no canto da página, clique em "Upload De Pasta".
+
+	[3.5] - Localize a pasta "Hands On - PDF" no computador e clique em "Fazer Upload".
+
+
+[ 4 ] - Com o upload da pasta feito e a página do Google Drive aberta, faça:
+
+	[4.1] - Abra a pasta "Hands On - PDF" no Google Drive.
+
+	[4.2] - Com a pasta aberta, clique no arquivo "Hands On - PDF.ipynb" para abrir o arquivo no navegador pelo Google Colab.
+
+	[4.3] - Com o arquivo aberto, procure pela etapa 3 chamada "Step 1: Import, read, and analyze training and validation data files, with file paths specified for each dataset".
+
+	[4.4] - Após localizar a etapa, procure pelas frases abaixo destacadas em vermelho para alterar o endereço dos arquivos.
+
+		"pdf_path = ('/content/drive/My Drive/Hands/livro.pdf')"
+
+		"table_path = ('/content/drive/My Drive/Hands/livro.csv')"
+
+	[4.5] - Ao encontrar as frases, basta apagar o final da linha que seria ".../Hands/livro.pdf" e substituir por ".../Hands On-PDF/(nome_do_arquivo)" 
+
+	[4.6] - Com os endereços alterados, use o comando "CTRL + 9" para executar todo o script.
