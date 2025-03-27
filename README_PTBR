@@ -57,7 +57,7 @@ O "Hands On" é um script em Python, desenvolvido no ambiente Google Colab, que 
 
 	[4.2] - Com a pasta aberta, clique no arquivo "Hands On - PDF.ipynb" para abrir o arquivo no navegador pelo Google Colab.
 
-	[4.3] - Com o arquivo aberto, procure pela etapa 3 chamada "Step 1: Import, read, and analyze training and validation data files, with file paths specified for each dataset".
+	[4.3] - Com o arquivo aberto, procure pela etapa 3 chamada "Step 5: Creating graphs to visualize statistical results dynamically and objectively after training".
 
 	[4.4] - Após localizar a etapa, procure pelas frases abaixo destacadas em vermelho para alterar o endereço dos arquivos.
 
